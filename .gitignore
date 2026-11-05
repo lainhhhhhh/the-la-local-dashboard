@@ -1,0 +1,22 @@
+# Track only the files needed to run the hosted dashboard.
+/*
+!/.gitignore
+!/requirements.txt
+!/dashboard.py
+!/dashboard_charts.py
+!/metrics.py
+!/source_scope.py
+!/pages/
+/pages/*
+!/pages/1_Newsletters.py
+!/pages/2_Social.py
+!/data_folder/
+/data_folder/*
+!/data_folder/web_ga4_daily_TLL.csv
+!/data_folder/web_ga4_daily_LBP.csv
+!/data_folder/web_ga4_weekly_TLL.csv
+!/data_folder/web_ga4_weekly_LBP.csv
+!/data_folder/web_ga4_pages_TLL.csv
+!/data_folder/web_ga4_pages_LBP.csv
+!/data_folder/nl_campaigns.csv
+!/data_folder/social_posts_snd.csv
